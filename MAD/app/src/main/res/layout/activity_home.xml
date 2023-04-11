@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".home">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/text"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:layout_margin="20sp"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:text="MAD LAB EXPERIMENTS"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/grid"
+        />
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/grid"
+        android:foregroundGravity="center"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/text"
+        android:layout_margin="40sp"
+        app:layout_constraintBottom_toBottomOf="parent">
+
+
+        <TextView
+            android:width="120sp"
+            android:layout_height="40sp"
+            android:text="Experiment 1"
+            android:id="@+id/one"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:background="@color/cardview_shadow_start_color"
+            android:textColor="@color/pink"
+            android:layout_row="0"
+            android:layout_margin="10sp"
+            android:layout_column="0"/>
+
+        <TextView
+            android:id="@+id/two"
+            android:layout_height="40sp"
+            android:layout_row="0"
+            android:layout_column="1"
+            android:layout_margin="10sp"
+            android:width="120sp"
+            android:background="@color/cardview_shadow_start_color"
+            android:gravity="center"
+            android:layout_marginLeft="40sp"
+            android:text="Experiment 2"
+            android:textStyle="bold"
+            android:textColor="@color/pink" />
+
+        <TextView
+            android:width="120sp"
+            android:layout_height="40sp"
+            android:text="Experiment 3"
+            android:textStyle="bold"
+            android:id="@+id/three"
+            android:gravity="center"
+            android:background="@color/cardview_shadow_start_color"
+            android:textColor="@color/pink"
+            android:layout_row="1"
+            android:layout_margin="10sp"
+            android:layout_column="0"/>
+
+        <TextView
+            android:width="120sp"
+            android:layout_height="40sp"
+            android:text="Experiment 4"
+            android:textStyle="bold"
+            android:id="@+id/four"
+            android:gravity="center"
+            android:background="@color/cardview_shadow_start_color"
+            android:textColor="@color/pink"
+            android:layout_row="1"
+            android:layout_marginLeft="40sp"
+            android:layout_margin="10sp"
+            android:layout_column="1"/>
+
+        <TextView
+            android:width="120sp"
+            android:layout_height="40sp"
+            android:text="Experiment 5"
+            android:textStyle="bold"
+            android:id="@+id/five"
+            android:gravity="center"
+            android:background="@color/cardview_shadow_start_color"
+            android:textColor="@color/pink"
+            android:layout_row="2"
+            android:layout_margin="10sp"
+            android:layout_column="0"/>
+
+        <TextView
+            android:width="120sp"
+            android:layout_height="40sp"
+            android:text="Experiment 6"
+            android:textStyle="bold"
+            android:id="@+id/six"
+            android:gravity="center"
+            android:background="@color/cardview_shadow_start_color"
+            android:textColor="@color/pink"
+            android:layout_row="2"
+            android:layout_marginLeft="40sp"
+            android:layout_margin="10sp"
+            android:layout_column="1"/>
+
+        <TextView
+            android:width="120sp"
+            android:layout_height="40sp"
+            android:text="Experiment 7"
+            android:textStyle="bold"
+            android:id="@+id/seven"
+            android:gravity="center"
+            android:background="@color/cardview_shadow_start_color"
+            android:textColor="@color/pink"
+            android:layout_row="3"
+            android:layout_margin="10sp"
+            android:layout_column="0"/>
+
+        <TextView
+            android:width="120sp"
+            android:layout_height="40sp"
+            android:text="Experiment 8"
+            android:textStyle="bold"
+            android:id="@+id/eight"
+            android:gravity="center"
+            android:background="@color/cardview_shadow_start_color"
+            android:textColor="@color/pink"
+            android:layout_row="3"
+            android:layout_marginLeft="40sp"
+            android:layout_margin="10sp"
+            android:layout_column="1"/>
+
+        <TextView
+            android:width="120sp"
+            android:layout_height="40sp"
+            android:text="Experiment 9"
+            android:textStyle="bold"
+            android:id="@+id/nine"
+            android:gravity="center"
+            android:background="@color/cardview_shadow_start_color"
+            android:textColor="@color/pink"
+            android:layout_row="4"
+            android:layout_margin="10sp"
+            android:layout_column="0"/>
+
+        <TextView
+            android:width="120sp"
+            android:layout_height="40sp"
+            android:text="Experiment 10"
+            android:textStyle="bold"
+            android:id="@+id/ten"
+            android:gravity="center"
+            android:background="@color/cardview_shadow_start_color"
+            android:textColor="@color/pink"
+            android:layout_row="4"
+            android:layout_marginLeft="40sp"
+            android:layout_margin="10sp"
+            android:layout_column="1"/>
+
+        <TextView
+            android:width="120sp"
+            android:layout_height="40sp"
+            android:text="Experiment 11"
+            android:textStyle="bold"
+            android:id="@+id/eleven"
+            android:gravity="center"
+            android:background="@color/cardview_shadow_start_color"
+            android:textColor="@color/pink"
+            android:layout_row="5"
+            android:layout_margin="10sp"
+            android:layout_column="0"/>
+
+        <TextView
+            android:width="120sp"
+            android:layout_height="40sp"
+            android:text="Experiment 12"
+            android:textStyle="bold"
+            android:id="@+id/twelve"
+            android:gravity="center"
+            android:background="@color/cardview_shadow_start_color"
+            android:textColor="@color/pink"
+            android:layout_row="5"
+            android:layout_margin="10sp"
+            android:layout_marginLeft="40sp"
+            android:layout_column="1"/>
+    </GridLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

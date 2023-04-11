@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">MAD_LAB</string>
+    <string name="mad_lab_experiments">MAD LAB EXPERIMENTS</string>
+    <string name="experiment_1">Experiment 1</string>
+    <string name="todo">TODO</string>
+    <string name="incorrect">Incorrect</string>
+
+    <string-array name="department">
+        <item> </item>
+        <item>CSE</item>
+        <item>CIVIL</item>
+        <item>MECH</item>
+        <item>ECE</item>
+        <item>ECE</item>
+    </string-array>
+</resources>

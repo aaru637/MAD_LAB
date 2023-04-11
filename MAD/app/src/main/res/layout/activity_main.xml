@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="30dp"
+    android:backgroundTintMode="multiply"
+    tools:context=".first.Experiment_1">
+
+    <Button
+        android:id="@+id/increasefontsize"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="40dp"
+
+        android:text="Increase Font Size"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/decreasefontsize"
+        android:layout_margin="40dp"
+        app:layout_constraintTop_toBottomOf="@+id/increasefontsize"
+        android:text="Decrease Font Size"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/changecolor"
+        android:layout_margin="40dp"
+        android:text="Change Color"
+        app:layout_constraintTop_toBottomOf="@+id/decreasefontsize"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/previouscolor"
+        android:layout_margin="40dp"
+        android:text="Previous Color"
+        app:layout_constraintTop_toBottomOf="@id/changecolor"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/name"
+        android:text="Hello World!"
+        android:textColor="@color/black"
+        app:layout_constraintTop_toBottomOf="@id/previouscolor"
+        android:gravity="center"
+        android:textSize="10dp"
+        android:layout_marginTop="120dp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/size"
+        android:layout_marginTop="50dp"
+        android:text="Size : 10"
+        android:textSize="10dp"
+        android:textColor="@color/black"
+        app:layout_constraintTop_toBottomOf="@id/name"
+        android:gravity="center"
+        />
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
